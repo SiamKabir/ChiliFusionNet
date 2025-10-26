@@ -5,6 +5,10 @@ from typing import List
 from fastapi.middleware.cors import CORSMiddleware
 from .schemas import PredictionItem, SinglePredictionItem, ImagePathInput
 from .predict import run_single_predict
+from .extractor import build_and_save_models
+
+import warnings
+warnings.filterwarnings("ignore", message=".*does not have valid feature names.*")
 # from .save_model import save_model
 app = FastAPI(title="ChiliFusionNet")
 
@@ -22,6 +26,11 @@ def heath():
     # save_model()
     return { "message": "Health is ok!"}
 
+@app.get("/save")
+def save():
+    # save_model()
+    build_and_save_models()
+    return { "message": "Health is ok!"}
 
 # @app.get("/predict", response_model=List[PredictionItem])
 # def predict_endpoint():
