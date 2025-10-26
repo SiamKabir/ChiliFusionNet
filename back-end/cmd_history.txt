@@ -1,0 +1,1000 @@
+ 1003  sudo npm i
+ 1004  npm run dev
+ 1005  sudo npm i cloudinary
+ 1006  sudo npm i 
+ 1007  sudo npm i multer
+ 1008  sudo npm i multer-storage-cloudinary
+ 1009  sudo npm uninstall cloudinary
+ 1010  sudo npm install cloudinary@1.30.1
+ 1011  sudo npm i
+ 1012  sudo npm i cloudinary@2.2.0
+ 1013  git add .
+ 1014  git commit -m "report create, getby police id, all active and cors setting"
+ 1015  git push --set-upstream origin feature/report-submission 
+ 1016  git checkout master
+ 1017  git pull
+ 1018  git add .
+ 1019  git commit -m "allowed origin update for cors"
+ 1020  git push -u origin master
+ 1021  git add .
+ 1022  git commit -m "police id card image field added to verification"
+ 1023  git push -u origin master
+ 1024  git checkout master
+ 1025  git pull
+ 1026  git checkout -b "feature/86etdj7zq"
+ 1027  npm run dev
+ 1028  cd personal/c3bit/doctel-
+ 1029  cd personal/c3bit/doctel-webservice/
+ 1030  code .
+ 1031  sudo /opt/lampp/lampp
+ 1032  sudo /opt/lampp/lampp start
+ 1033  npm run dev
+ 1034  git add .
+ 1035  git commit -m "centralized association file created, also Subscription and subscription history schema added"
+ 1036  git push --set-upstream origin feature/86etdj7zq 
+ 1037  git add .
+ 1038  git commit -m "mobile field renamed as phone in subscription table"
+ 1039  git push
+ 1040  git checkout master
+ 1041  git pull
+ 1042  git checkout -b "feature/86etcr1ze"
+ 1043  git fetch origin
+ 1044  git branch list
+ 1045  git branch --list
+ 1046  git merge origin/feature/86etdj7zq 
+ 1047  git add .
+ 1048  git commit -m "labreport schema and service file implemented with one to many relation"
+ 1049  cd /personal/c3bit
+ 1050  cd personal/c3bit
+ 1051  cd doctel-
+ 1052  cd doctel-webservice/
+ 1053  code .
+ 1054  sudo /opt/lampp/lampp start
+ 1055  sudo /opt/lampp/lampp stop
+ 1056  sudo /opt/lampp/lampp start
+ 1057  sudo /opt/lampp/lampp stop
+ 1058  npm run dev
+ 1059  git add .
+ 1060  git commit -m "Lab report file upload endpoint implemented"
+ 1061  git push --set-upstream origin feature/86etcr1ze 
+ 1062  git checkout master
+ 1063  git pull
+ 1064  git checkout -b "feature/86etdwd3p"
+ 1065  npm run dev
+ 1066  git fetch origin
+ 1067  git merge origin/master
+ 1068  git add .
+ 1069  git commit -m "subscription info by patiendId fetching endpoint implemented"
+ 1070  git merge origin/master
+ 1071  git add .
+ 1072  git commit -m "changes from master branch added into 86etdwd3p branch"
+ 1073  git push --set-upstream origin feature/86etdwd3p 
+ 1074  npm run dev
+ 1075  git add .
+ 1076  git commit -m "send reponse endpoint with authentication and status update implemented"
+ 1077  git push --set-upstream origin feature/send-response 
+ 1078  git checkout master
+ 1079  git pull
+ 1080  git checkout -b "feature/get-response"
+ 1081  git add .
+ 1082  git commit -m "Response list fetched by report id implemented"
+ 1083  git add .
+ 1084  git commit -m "Update Report status and public get report response implemented"
+ 1085  git push --set-upstream origin feature/get-response 
+ 1086  git checkout master
+ 1087  git pull
+ 1088  git checkout -b "feature/messaging"
+ 1089  git add .
+ 1090  git commit -m "basic socket pipline and conversation schema preparation"
+ 1091  cd personal/diu/
+ 1092  ls
+ 1093  cd forensic-webservice/
+ 1094  code .
+ 1095  git add .
+ 1096  git commit -m "basic messaging features implemented"
+ 1097  git push --set-upstream origin feature/messaging 
+ 1098  npm run dev
+ 1099  cd personal/diu/forensic-webservice/
+ 1100  code .
+ 1101  git checkout master
+ 1102  git pull
+ 1103  git checkout -b "feature/86ete5yp1"
+ 1104  git add .
+ 1105  git commit -m "get labreport list model created"
+ 1106  npm run dev
+ 1107  git add .
+ 1108  git commit -m "get lab report list by patient id endpoint implemented"
+ 1109  git push --set-upstream origin feature/86ete5yp1 
+ 1110  sudo /opt/lampp/lampp start
+ 1111  cd personal/c3bit/doctel-
+ 1112  cd personal/c3bit/doctel-webservice/
+ 1113  code .
+ 1114  cd personal/c3bit/doctel-
+ 1115  cd personal/c3bit/doctel-webservice/
+ 1116  code .
+ 1117  sudo /opt/lampp/lampp start
+ 1118  cd ..
+ 1119  cd personal
+ 1120  cd diu
+ 1121  cd forensic-webservice/
+ 1122  code .
+ 1123  git checkout master
+ 1124  git pull
+ 1125  npm run dev
+ 1126  clear
+ 1127  git pull
+ 1128  git checkout -b "feature/86etefyzx"
+ 1129  npm run dev
+ 1130  git add .
+ 1131  git commit -m "labreport with pagination for doctor implemented"
+ 1132  git push --set-upstream origin feature/86etefyzx 
+ 1133  git checkout master
+ 1134  git pull
+ 1135  git checkout -b "feature/86eteh2af"
+ 1136  git add .
+ 1137  git commit -m "decrease remaining calls by 1 using phone"
+ 1138  git push --set-upstream origin feature/86eteh2af 
+ 1139  cd personal/diu/forensic-webservice/
+ 1140  code .
+ 1141  cd ..
+ 1142  cd c3bit/doctel-webservice/
+ 1143  code .
+ 1144  sudo /opt/lampp/lampp start
+ 1145  git add .
+ 1146  git commit -m "header log"
+ 1147  git push -u origin master
+ 1148  git checkout master
+ 1149  git pull
+ 1150  npm run dev
+ 1151  git add .
+ 1152  git commit -m "cors origin list for socket added"
+ 1153  git push -u origin master
+ 1154  npm run dev
+ 1155  cd personal/c3bit/doctel-webservice/
+ 1156  code .
+ 1157  sudo /opt/lampp/lampp start
+ 1158  git checkout master
+ 1159  git pull
+ 1160  git checkout -b "feature/86etew3b4"
+ 1161  npm run dev
+ 1162  git add .
+ 1163  git commit -m "remaining call value will be decreased after prescription sending"
+ 1164  git push --set-upstream origin feature/86etew3b4 
+ 1165  git clone https://github.com/sabbir1054/report_portal.git
+ 1166  cd report protal
+ 1167  cd report_portal/
+ 1168  git pull
+ 1169  git checkout -b "feature/agent-chat"
+ 1170  git checkout mater
+ 1171  git checkout -m "bug-fix/aget-reply"
+ 1172  git checkout -b "bug-fix/agent-reply"
+ 1173  sudo npm i
+ 1174  npm run dev
+ 1175  sudo npm run dev
+ 1176  git add .
+ 1177  git commit -m "customerId replaced with policeId"
+ 1178  git push --set-upstream origing bug-fix/agent-reply 
+ 1179  git push --set-upstream origin bug-fix/agent-reply 
+ 1180  cd personal/diu/forensic-webservice/
+ 1181  cd ..
+ 1182  code .
+ 1183  npm run dev
+ 1184  cd personal/c3bit
+ 1185  ls
+ 1186  cd ..
+ 1187  cd diu
+ 1188  ls
+ 1189  cd forensic-webservice/
+ 1190  code .
+ 1191  git checkout -b "feature/chat-modify"
+ 1192  git add .
+ 1193  git commit -m "new methods in conversation and sockethandler"
+ 1194  git push --set-upstream origin feature/chat-modify 
+ 1195  cd personal/diu
+ 1196  cd forensic-webservice/
+ 1197  code .
+ 1198  git checkout master
+ 1199  git checkout main
+ 1200  git pull
+ 1201  npm run dev
+ 1202  sudo npm run dev
+ 1203  npm run dev
+ 1204  git checkout -b "bug-fixing/chat-waiting"
+ 1205  git add .
+ 1206  git commit -m "bug-fixing almost done"
+ 1207  git push --set-upstream origin bug-fixing/chat-waiting 
+ 1208  cd ..
+ 1209  ls
+ 1210  cd report_portal/
+ 1211  code .
+ 1212  git checkout master
+ 1213  cd ..
+ 1214  cd forensic-webservice/
+ 1215  git chekout master
+ 1216  git checkout master
+ 1217  git pull
+ 1218  npm run dev
+ 1219  cd ..
+ 1220  cd report_portal/
+ 1221  npm run dev
+ 1222  git checkout master
+ 1223  git pull
+ 1224  git checkout -b "feature/86ethmv4p"
+ 1225  npm run dev
+ 1226  sudo npm i
+ 1227  npm run dev
+ 1228  git add .
+ 1229  git commit -m "Call balance transfer from dealer to agent implemented"
+ 1230  git push --set-upstream origin feature/86ethmv4p 
+ 1231  git add .
+ 1232  git commit -m "transaction history table added"
+ 1233  git push
+ 1234  cd personal/c3bit
+ 1235  cd doctel-
+ 1236  cd doctel-webservice/
+ 1237  code .
+ 1238  sudo /opt/lampp/lampp start
+ 1239  cd personal/c3bit/doctel-webservice/
+ 1240  code .
+ 1241  sudo /opt/lampp/lampp start
+ 1242  cd ..
+ 1243  ls
+ 1244  cd vb-webservice/
+ 1245  code .
+ 1246  npm run dev
+ 1247  git checkout master
+ 1248  git pull
+ 1249  git checkout -b "feature/86etj91xk"
+ 1250  npm run dev
+ 1251  clear
+ 1252  git add .
+ 1253  git commit -m "Fetch admin list with pagination by Superadmin Implemented successfully"
+ 1254  git push --set-upstream origin feature/86etj91xk 
+ 1255  git checkout master
+ 1256  git pull
+ 1257  git checkout -b "feature/86etja56k"
+ 1258  git add .
+ 1259  git commit -m "Dealer deatils with pagination and search keyword by super admin"
+ 1260  git push --set-upstream origin feature/86etja56k 
+ 1261  git add .
+ 1262  git commit -m "response object modified based on requirement"
+ 1263  git push
+ 1264  git add .
+ 1265  git commit -m "success message changed"
+ 1266  git push
+ 1267  cd personal/c3bit/doctel-webservice/
+ 1268  code .
+ 1269  git checkout master
+ 1270  git pull
+ 1271  git chekcout -b "bug-fix/otp-message"
+ 1272  git checkout -b "bug-fix/otp-message"
+ 1273  git add .
+ 1274  git commit -m "Otp message text changed"
+ 1275  git push --set-upstream origin bug-fix/otp-message 
+ 1276  sudo /opt/lampp/lampp 
+ 1277  sudo /opt/lampp/lampp start
+ 1278  git list
+ 1279  git branch --list
+ 1280  git checkout master
+ 1281  git pull
+ 1282  git checkout -b "bug-fix/adminlist"
+ 1283  npm run dev
+ 1284  git add .
+ 1285  git commit -m "whereClause condition updated based on the business requirement"
+ 1286  git push --set-upstream origin bug-fix/adminlist 
+ 1287  sudo /opt/lampp/lampp start
+ 1288  git checkout master
+ 1289  git pull
+ 1290  npm run dev
+ 1291  sudo /opt/lampp/lampp start
+ 1292  npm run dev
+ 1293  sudo /opt/lampp/lampp stop
+ 1294  tmux list-sessions
+ 1295  exit
+ 1296  tmux list-sessions
+ 1297  tmux
+ 1298  journalctl -f
+ 1299  journalctl -f 
+ 1300  exit
+ 1301  ls
+ 1302  htop
+ 1303  sudo apt install htop
+ 1304  htop
+ 1305  exit
+ 1306  tmux list-sessions
+ 1307  tmux kill-session -t 0
+ 1308  tmux list-sessions
+ 1309  exit
+ 1310  whoami
+ 1311  ifconfig
+ 1312  cmatrix
+ 1313  clear
+ 1314  pid
+ 1315  cat pid
+ 1316  httop
+ 1317  htop
+ 1318  clear
+ 1319  ls
+ 1320  cd personal
+ 1321  ls
+ 1322  rm another.txt 
+ 1323  ls
+ 1324  rm antoher.txt 
+ 1325  ls
+ 1326  rm merge_vim.txt 
+ 1327  ls
+ 1328  rm vim.txt 
+ 1329  ls
+ 1330  clear
+ 1331  mkdir bash
+ 1332  ls
+ 1333  cd bash
+ 1334  vim first.sh
+ 1335  ls
+ 1336  ls -l
+ 1337  chmode 764 first.sh 
+ 1338  cmode 764 first.sh 
+ 1339  chmod 764 first.sh 
+ 1340  ls -l
+ 1341  ./first.sh 
+ 1342  chmod +x first.sh 
+ 1343  ls -l
+ 1344  clear
+ 1345  vim vote.sh
+ 1346  chmod 764 vote.sh 
+ 1347  ./vote.sh 
+ 1348  vim vote.sh 
+ 1349  ./vote.sh 
+ 1350  vim vote.sh 
+ 1351  cat vote.sh
+ 1352  clear
+ 1353  vim --version | grep clipboard 
+ 1354  cd ~
+ 1355  ls
+ 1356  pwd
+ 1357  cd personal/bash
+ 1358  ls
+ 1359  echo $shell
+ 1360  echo $SHELL
+ 1361  myname="izaz"
+ 1362  myname
+ 1363  echo myname
+ 1364  echo "$myname"
+ 1365  echo $myname
+ 1366  $ls = "newls"
+ 1367  nano
+ 1368  ls
+ 1369  nano variable.sh 
+ 1370  chmod +x variable.sh 
+ 1371  ls
+ 1372  ./variable.sh 
+ 1373  nano variable.sh 
+ 1374  ./v
+ 1375  ./variable.sh 
+ 1376  vim variable.sh 
+ 1377  ./variable.sh 
+ 1378  vim variable.sh 
+ 1379  ./variable.sh 
+ 1380  vim variable.sh 
+ 1381  ./variable.sh 
+ 1382  vim variable.sh 
+ 1383  ./variable.sh 
+ 1384  vim variable.sh 
+ 1385  ./variable.sh 
+ 1386  vim variable.sh 
+ 1387  ./variable.sh 
+ 1388  env
+ 1389  which nano
+ 1390  nano variable.sh 
+ 1391  30 +10
+ 1392  expr 30+10
+ 1393  expr 30 + 10
+ 1394  nano if_else.sh
+ 1395  chmod +x if_else.sh 
+ 1396  ./if_else.sh 
+ 1397  nano if_else.sh 
+ 1398  ./if_else.sh 
+ 1399  nano if_else.sh 
+ 1400  ./if_else.sh 
+ 1401  cd personal/
+ 1402  vim vim.txt 
+ 1403  ls
+ 1404  cd 
+ 1405  pwe
+ 1406  pwd
+ 1407  ls
+ 1408  clear
+ 1409  vim .vimrc
+ 1410  vim ./personal/vim.txt 
+ 1411  vim .vimrc
+ 1412  vim .v
+ 1413  vim .vimrc
+ 1414  clear
+ 1415  tmux
+ 1416  tmux list-sessions
+ 1417  pwd
+ 1418  ls
+ 1419  cd ..
+ 1420  ls
+ 1421  ls -l
+ 1422  cd izaz
+ 1423  ls
+ 1424  cd ..
+ 1425  ls
+ 1426  cd swapfile
+ 1427  cat swapfile 
+ 1428  sudo cat swapfile 
+ 1429  sudo file swapfile
+ 1430  cd bin
+ 1431  ls
+ 1432  file mongodb-compass
+ 1433  file man
+ 1434  cd man
+ 1435  man
+ 1436  man mmcli
+ 1437  ls -l | grep man
+ 1438  cd ..
+ 1439  cd sbin
+ 1440  ls
+ 1441  chcpu
+ 1442  chcpu --help
+ 1443  ifconfig
+ 1444  cd ..
+ 1445  cd etc/
+ 1446  ls
+ 1447  ls -l | grep mongo
+ 1448  cat ssh
+ 1449  cd ssh
+ 1450  ls
+ 1451  cat ssh_config
+ 1452  ls
+ 1453  file ssh_config.d/
+ 1454  cd ssh_config.d/
+ 1455  ls
+ 1456  ls -l
+ 1457  ls -a
+ 1458  cd .
+ 1459  ls -a
+ 1460  fiel .
+ 1461  file .
+ 1462  cd .
+ 1463  cd ~.
+ 1464  cd /
+ 1465  ls
+ 1466  cd dev
+ 1467  ls
+ 1468  file usb
+ 1469  cd usb
+ 1470  ls
+ 1471  file hiddev0 
+ 1472  cat hiddev0 
+ 1473  sudo cat hiddev0 
+ 1474  man evtest
+ 1475  ls -l
+ 1476  cd /
+ 1477  cd proc/
+ 1478  ls
+ 1479  file cpuinfo 
+ 1480  cat cpuinfo
+ 1481  ls -l
+ 1482  file uptime
+ 1483  cat uptime
+ 1484  cat zoneinfo 
+ 1485  cd ..
+ 1486  cd var/
+ 1487  ls
+ 1488  ls -l
+ 1489  cd backups/
+ 1490  ls
+ 1491  cd ..
+ 1492  ls
+ 1493  cd log
+ 1494  ls
+ 1495  cd journal/
+ 1496  ls
+ 1497  file 5df0771473704d0aa24fbdd23c8b8057/
+ 1498  cd 5df0771473704d0aa24fbdd23c8b8057/
+ 1499  ls
+ 1500  file user-1000.journal 
+ 1501  journalctl -l
+ 1502  ls
+ 1503  cat user-1000.journal 
+ 1504  ls
+ 1505  sudo journalctl --file=./user-1000.journal
+ 1506  cd /
+ 1507  ls
+ 1508  cd tmp/
+ 1509  ls
+ 1510  cd .
+ 1511  cd /usr/
+ 1512  ls
+ 1513  cd 
+ 1514  cd /
+ 1515  cd boot/
+ 1516  ls
+ 1517  cd grub/
+ 1518  ls
+ 1519  cat gfxblacklist.txt 
+ 1520  cd /
+ 1521  cd lib
+ 1522  ls
+ 1523  cd cpp
+ 1524  file cpp
+ 1525  ls -l
+ 1526  cd ssl
+ 1527  ls
+ 1528  ls -l
+ 1529  cat openssl.cnf 
+ 1530  ls
+ 1531  cd /
+ 1532  cd etc/
+ 1533  ls
+ 1534  grep bash
+ 1535  ls -l | grep bash
+ 1536  file hostname 
+ 1537  cat hostname 
+ 1538  cd ..
+ 1539  cd root
+ 1540  sudo root
+ 1541  sudo cd root
+ 1542  ls
+ 1543  sudo cd ./root
+ 1544  clear
+ 1545  cd root
+ 1546  sudo file root
+ 1547  cd root
+ 1548  sudo -i
+ 1549  git checkout master
+ 1550  git pull
+ 1551  cd ..
+ 1552  ls
+ 1553  ls -l
+ 1554  clear
+ 1555  mkdir misovibes-webservice
+ 1556  ls
+ 1557  cd misovibes-webservice/
+ 1558  code .
+ 1559  cd personal/c3bit/
+ 1560  ls
+ 1561  cd misovibes-webservice/
+ 1562  code .
+ 1563  git push --set-upstream origin feature/boilerplate 
+ 1564  sudo /opt/lampp/lampp stop
+ 1565  sudo /opt/lampp/lampp status
+ 1566  ls
+ 1567  cd personal
+ 1568  ls
+ 1569  touch new.txt
+ 1570  ls
+ 1571  cp --help
+ 1572  cp new.txt webapp/
+ 1573  ls
+ 1574  cd webapp/
+ 1575  ls
+ 1576  man cp
+ 1577  cd personal/c3bit/
+ 1578  code misovibes-webservice/
+ 1579  code doctel-webservice/
+ 1580  git status
+ 1581  git add .
+ 1582  git commit -m "Prescription name Update route implemented"
+ 1583  git push --set-upstream origin feature/86etp4xe2 
+ 1584  sudo /opt/lampp/lampp start
+ 1585  npm run dev
+ 1586  sudo /opt/lampp/lampp stop
+ 1587  cd personal/c3bit
+ 1588  code doctel-webservice/
+ 1589  git checkout master
+ 1590  git pull
+ 1591  cd ..
+ 1592  git clone https://github.com/C3BIT/doctel-patient-web-app.git
+ 1593  git pull
+ 1594  git checkout -b "feature/86etvfbx8"
+ 1595  sudo /opt/lampp/lampp start
+ 1596  npm run dev
+ 1597  git add .
+ 1598  git commit -m "Doctor and doctor profile model created"
+ 1599  git push
+ 1600  git push --set-upstream origin feature/86etvfbx8 
+ 1601  ls
+ 1602  cd dev
+ 1603  ls
+ 1604  cd ..
+ 1605  cd personal
+ 1606  cd c3bit/
+ 1607  ls
+ 1608  code doctel-
+ 1609  code doctel-webservice/
+ 1610  code misovibes-webservice/
+ 1611  cd personal/c3bit/
+ 1612  cd misovibes-webservice/
+ 1613  code .
+ 1614  cd ..
+ 1615  cd doctel-webservice/
+ 1616  code .
+ 1617  git checkout master
+ 1618  git pull
+ 1619  git checkout -b "feature/86etvwn06"
+ 1620  git add .
+ 1621  git commit -m "Doctor login controller with register service implemented"
+ 1622  git push --set-upstream origin feature/86etvwn06 
+ 1623  cd personal/c3bit/
+ 1624  cd misovibes-webservice/
+ 1625  code .
+ 1626  cd ..
+ 1627  code doctel-webservice/
+ 1628  git checkout master
+ 1629  git pull
+ 1630  cd personal/c3bit/
+ 1631  code misovibes-webservice/
+ 1632  code doctel-
+ 1633  code doctel-webservice/
+ 1634  code doctel-patient-web-app
+ 1635  git pull
+ 1636  npm i
+ 1637  npm run dev
+ 1638  cd ..
+ 1639  git clone https://github.com/C3BIT/doctel-backoffice-web.git
+ 1640  cd doctel-backoffice-web
+ 1641  code .
+ 1642  npm i
+ 1643  npm run dev
+ 1644  cd personal/c3bit/
+ 1645  git clone https://github.com/C3BIT/doctel-backoffice-web.git
+ 1646  code doctel-webservice/
+ 1647  cd personal/c3bit/
+ 1648  ls
+ 1649  code doctel-backoffice-web
+ 1650  npm run dev
+ 1651  cd personal/c3bit/
+ 1652  code doctel-webservice/
+ 1653  cd personal/c3bit
+ 1654  code doctel-webservice/
+ 1655  cd personal/c3bit
+ 1656  ls
+ 1657  doctel-patient-web-app
+ 1658  code doctel-patient-web-app
+ 1659  code doctel-backoffice-web
+ 1660  cd personal/c3bit/
+ 1661  cd doctel-webservice/
+ 1662  code .
+ 1663  git status
+ 1664  git checkout master
+ 1665  git pull
+ 1666  git checkout -b "feature/86eu11y49"
+ 1667  sudo /opt/lampp/lampp start
+ 1668  npm run dev
+ 1669  git add .
+ 1670  git commit -m "agent profile business info added"
+ 1671  git push --set-upstream origin feature/86eu11y49 
+ 1672  npm run dev
+ 1673  git add .
+ 1674  git reset
+ 1675  sudo /opt/lampp/lampp stop
+ 1676  sudo /opt/lampp/lampp start
+ 1677  git add .
+ 1678  git commit -m "trade license image also optional now"
+ 1679  git push
+ 1680  sudo /opt/lampp/lampp stop
+ 1681  git add .
+ 1682  git commit -m "new field drugLicense added in agent business info"
+ 1683  git push
+ 1684  cd personal/c3bit/
+ 1685  code doctel-webservice/
+ 1686  git checkout master
+ 1687  git pull
+ 1688  sudo /opt/lampp/lampp start
+ 1689  npm run dev
+ 1690  git pull
+ 1691  git checkout -b "feature/86eu1nzz9"
+ 1692  git add .
+ 1693  git commit -m "Agent business info added during the fetching patient profile info"
+ 1694  git push --set-upstream origin feature/86eu1nzz9 
+ 1695  git checkout master
+ 1696  git pull
+ 1697  git checkout -b "feature/86eu1r7n2"
+ 1698  git add .
+ 1699  git commit -m "package fetch response modification like order by price"
+ 1700  git push --set-upstream origin feature/86eu1r7n2 
+ 1701  sudo /opt/lampp/lampp stop
+ 1702  sudo /opt/lampp/lampp status
+ 1703  git clear
+ 1704  git add .
+ 1705  git commit -m "3 calls with 7 day subscription added during the registration time of patient"
+ 1706  git push --set-upstream origin feature/86eu2crya 
+ 1707  git checkout master
+ 1708  git pull
+ 1709  git checkout -b "feature/86eu2crya"
+ 1710  sudo /opt/lampp/lampp start
+ 1711  npm run dev
+ 1712  git checkout master
+ 1713  git pull
+ 1714  git pull 
+ 1715  git checkout -b "feature/86eu3bcmf"
+ 1716  sudo /opt/lampp/lampp start
+ 1717  npm run dev
+ 1718  sudo /opt/lampp/lampp stop
+ 1719  git add .
+ 1720  git commit -m "get agent list created by dealerID"
+ 1721  git push --set-upstream origin feature/86eu3bcmf 
+ 1722  git checkout master
+ 1723  git pull
+ 1724  npm run dev
+ 1725  npm i
+ 1726  cd personal/c3bit/doctel-webservice/
+ 1727  npm run dev
+ 1728  sudo /opt/lampp/lampp start
+ 1729  npm run dev
+ 1730  clear
+ 1731  cd ..
+ 1732  cd doctel-backoffice-web
+ 1733  npm run dev
+ 1734  cd ..
+ 1735  cd doctel-patient-web-app
+ 1736  npm run dev
+ 1737  code .
+ 1738  npm run dev
+ 1739  cd personal/c3bit/
+ 1740  code doctel-webservice/
+ 1741  cd doctel-backoffice-web
+ 1742  npm run dev
+ 1743  git checkout -b "feature/86eu451jy"
+ 1744  npm run dev
+ 1745  git add /home/izaz/personal/c3bit/doctel-backoffice-web/src/layout/Sidebar.jsx
+ 1746  git commit -m "Doctor remove from the available list after logout"
+ 1747  git push 
+ 1748  git push --set-upstream origin feature/86eu451jy 
+ 1749  git pull
+ 1750  git checkout -b "feature/86eu452fh"
+ 1751  sudo /opt/lampp/lampp start
+ 1752  npm run dev
+ 1753  git add /home/izaz/personal/c3bit/doctel-webservice/src/services/websocketService.js
+ 1754  git commit -m "Socket logout event to remove doctor after logout"
+ 1755  git push --set-upstream origin feature/86eu452fh 
+ 1756  cd doctel-patient-web-app
+ 1757  npm run dev
+ 1758  code .
+ 1759  cd ..
+ 1760  code doctel-backoffice-web
+ 1761  git checkout master
+ 1762  git pull
+ 1763  sudo /opt/lampp/lampp start
+ 1764  npm run dev
+ 1765  git pull
+ 1766  cd personal/c3bit/
+ 1767  ls
+ 1768  cd doctel-backoffice-web
+ 1769  code .
+ 1770  cd ..
+ 1771  cd doctel-patient-web-app
+ 1772  npm run dev
+ 1773  git checkout master
+ 1774  git branch
+ 1775  git checkout main
+ 1776  git pull
+ 1777  npm run dev
+ 1778  cd personal/c3bit/
+ 1779  code misovibes-webservice/
+ 1780  cd personal/c3bit/
+ 1781  code misovibes-webservice/
+ 1782  git checkout master
+ 1783  git pull
+ 1784  git checkout -b "feature/86eu5njmh"
+ 1785  npm run dev
+ 1786  clear
+ 1787  git add .
+ 1788  git commit -m "doctor profile fetch endpoit implemented"
+ 1789  git push --set-upstream origin feature/86eu5njmh 
+ 1790  git checkout master
+ 1791  git pull
+ 1792  git checkout -b "feature/86eu5njr2"
+ 1793  git add .
+ 1794  git commit -m "Doctor profile update functionality implemented"
+ 1795  git push --set-upstream origin feature/86eu5njr2 
+ 1796  git checkout -b "feature/86eu5njpc"
+ 1797  clear
+ 1798  git add .
+ 1799  git commit -m "Fetch patient profile data functionality implemented"
+ 1800  git push --set-upstream origin feature/86eu5njpc 
+ 1801  sudo /opt/lampp/lampp start
+ 1802  npm run dev
+ 1803  sudo /opt/lampp/lampp stop
+ 1804  cd personal/c3bit/
+ 1805  code misovibes-webservice/
+ 1806  code doctel-webservice/
+ 1807  sudo apt update
+ 1808  sudo apt upgrade
+ 1809  clear
+ 1810  cd personal/c3bit/
+ 1811  code misovibes-webservice/
+ 1812  git pull
+ 1813  git checkout -b "feature/86eu7kz1h"
+ 1814  sudo /opt/lampp/lampp start
+ 1815  npm run dev
+ 1816  git add .
+ 1817  git commit -m "multirole authentication and agent, patient prescription update endpoint"
+ 1818  git push --set-upstream origin feature/86eu7kz1h 
+ 1819  git checkout develop
+ 1820  git pull
+ 1821  cd personal/c3bit/
+ 1822  code doctel-webservice/
+ 1823  python
+ 1824  python3 -v
+ 1825  clear
+ 1826  python -m venv DengueStackX-19
+ 1827  python3 -m venv DengueStackX-19
+ 1828  cd DengueStackX-19/
+ 1829  python3 -m venv dengu_env
+ 1830  ls
+ 1831  dengu_env/bin/activate
+ 1832  sudo dengu_env/bin/activate
+ 1833  python3
+ 1834  sudo apt update
+ 1835  sudo apt upgrade
+ 1836  sudo apt install python3
+ 1837  sudo apt install python3-venv
+ 1838  sudo apt install python3-pip
+ 1839  source dengu_env/bin/activate
+ 1840  pip install -r requirements.txt
+ 1841  pip freeze > main.txt
+ 1842  clear
+ 1843  uvicorn app.main:app --reload
+ 1844  cd personal/
+ 1845  ls
+ 1846  mkdir research
+ 1847  cd research/
+ 1848  code .
+ 1849  cd personal/research/
+ 1850  ls
+ 1851  cd DengueStackX-19/
+ 1852  code .
+ 1853  git init
+ 1854  git add README.md
+ 1855  git commit -m "first commit"
+ 1856  echo "# DenguStackX-19" >> README.md
+ 1857  git add README.md 
+ 1858  git commit -m "Creating the repo"
+ 1859  git branch -M master
+ 1860  git remote add origin https://github.com/izaz-swe/DenguStackX-19.git
+ 1861  git push -u origin master
+ 1862  [200~git rm -r --cached myenv/
+ 1863  git rm -r --cached myenv/
+ 1864  git rm -r --cached dengu_env/
+ 1865  git add .
+ 1866  git commit -m "the initial configuration done"
+ 1867  git push -u origin master
+ 1868  /usr/bin/python3 /home/izaz/.vscode/extensions/ms-python.python-2025.10.0-linux-x64/python_files/printEnvVariablesToFile.py /home/izaz/.vscode/extensions/ms-python.python-2025.10.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1869  cd personal/c3bit/
+ 1870  code misovibes-webservice/
+ 1871  code doctel-webservice/
+ 1872  cd personal/c3bit/
+ 1873  code misovibes-webservice/
+ 1874  git config --list
+ 1875  clear
+ 1876  npm i
+ 1877  npm run dev
+ 1878  cd personal/c3bit/
+ 1879  code doctel-project/
+ 1880  cd personal/c3bit/doctel-project/
+ 1881  npm run dev
+ 1882  history >> cmd.txt
+ 1883  /usr/bin/python3 /home/izaz/.vscode/extensions/ms-python.python-2025.10.1-linux-x64/python_files/printEnvVariablesToFile.py /home/izaz/.vscode/extensions/ms-python.python-2025.10.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1884  cd personal
+ 1885  cd c3bit/
+ 1886  ls
+ 1887  ls
+ 1888  cd back-end/
+ 1889  python3 -m venv dengue_env
+ 1890  sudo dengue_env/bin/activate 
+ 1891  source dengue_env/bin/activate
+ 1892  deactivate 
+ 1893  source dengue_env/bin/activate
+ 1894  pip install -r requirements.txt 
+ 1895  uvicorn app.main:app --reload
+ 1896  git clone https://github.com/izaz-swe/DenguStackX-19.git
+ 1897  git clone https://github.com/izaz-swe/DengueStackX-19.git
+ 1898  cd DengueStackX-19
+ 1899  code .
+ 1900  cd personal/c3bit/
+ 1901  code doctel-project/
+ 1902  npm run dev
+ 1903  clear
+ 1904  git init
+ 1905  git add .
+ 1906  git commit -m "agent page with partial about us page"
+ 1907  git branch -M master
+ 1908  git remote add origin https://github.com/C3BIT/doctel-project.git
+ 1909  git push -u origin master
+ 1910  git add .
+ 1911  git commit -m "gitignore change
+ 1912  "
+ 1913  git push -u origin master
+ 1914  git reset
+ 1915  git add .
+ 1916  git commit -m "doctel app ignored"
+ 1917  git push -u origin master
+ 1918  clear
+ 1919  git init
+ 1920  git add .
+ 1921  git commit -m "agent page with partial about us"
+ 1922  git branch -M master
+ 1923  git remote add origin https://github.com/C3BIT/doctel-project.git
+ 1924  git push -u origin master
+ 1925  touch abc.txt
+ 1926  cd personal/c3bit/
+ 1927  code doctel-webservice/
+ 1928  git checkout master 
+ 1929  git branch --list
+ 1930  git checkout develop 
+ 1931  git pull
+ 1932  npm run dev
+ 1933  sudo /opt/lampp/lampp 
+ 1934  sudo /opt/lampp/lampp start
+ 1935  npm run dev
+ 1936  npm i
+ 1937  sudo npm i
+ 1938  clear
+ 1939  npm run dev
+ 1940  git checkout -b "feature/86eufmy4f"
+ 1941  git add .
+ 1942  git commit -m "agent register request endpoint implemented"
+ 1943  git push --set-upstream origin feature/86eufmy4f 
+ 1944  npm run dev
+ 1945  git add .
+ 1946  git commit -m "rejected added in enum field"
+ 1947  git push
+ 1948  cd personal/c3bit/
+ 1949  cd doctel-webservice/
+ 1950  code .
+ 1951  git checkout develop 
+ 1952  git pull\
+ 1953  git pull
+ 1954  git checkout -b "feature/86eugd67x"
+ 1955  sudo /opt/lampp/lampp start
+ 1956  npm run dev
+ 1957  git add .
+ 1958  git commit -m "bonus call added after first profile update"
+ 1959  git push --set-upstream origin feature/86eugd67x 
+ 1960  git pull
+ 1961  npm i
+ 1962  npm build
+ 1963  npm run build
+ 1964  cd personal/c3bit/doctel-webservice/
+ 1965  code .
+ 1966  cd .
+ 1967  cd ..
+ 1968  cd doctel-project/
+ 1969  code .
+ 1970  cd personal/c3bit/doctel-webservice/
+ 1971  code .
+ 1972  git add .
+ 1973  git commit -m "remove unnecessary information"
+ 1974  git push -u origin master
+ 1975  git add .
+ 1976  git commit -m "small mistake correction"
+ 1977  git push -u origin master
+ 1978  git add .
+ 1979  git commit -m "prof read key contribution, model description, balancing"
+ 1980  git push -u origin master
+ 1981  git add .
+ 1982  git commit -m "author information|
+ 1983  "
+ 1984  git push -u origin master
+ 1985  cd personal/research/DengueStackX-19
+ 1986  code .
+ 1987  git checkout master
+ 1988  git pull
+ 1989  git checkout develop
+ 1990  git pull
+ 1991  git checkout -b "feature/86euhaak0"
+ 1992  sudo /opt/lampp/lampp start
+ 1993  npm run dev
+ 1994  git add .
+ 1995  git reset
+ 1996  git add .
+ 1997  git commit -m "role checking added in free call"
+ 1998  git push --set-upstream origin feature/86euhaak0 
+ 1999  cd personal/c3bit/doctel-webservice/
+ 2000  code .
+ 2001  cd back-end/
+ 2002  history >> cmd_history.txt
