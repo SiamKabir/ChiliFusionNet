@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import Literal, List, Union
+from typing import Literal, List, Union, Optional, Dict
 
 class PredictRequest(BaseModel):
     Gender: Literal['Male', 'Female']
@@ -48,6 +48,7 @@ class PredictionItem(BaseModel):
 class SinglePredictionItem(BaseModel):
     predicted_label: str      # Predicted class name
     confidence: float
+    probabilities: Optional[Dict[str, float]] = None
 
 class ImagePathInput(BaseModel):
     path: str

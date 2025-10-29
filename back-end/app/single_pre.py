@@ -7,7 +7,11 @@ from .load_model_utils import load_keras_model
 feature_model1 = load_keras_model("inception_resnet_v2_feature_extractor.keras", compile=False)
 feature_model2 = load_keras_model("efficientnet_b3_feature_extractor.keras", compile=False)
 feature_model3 = load_keras_model("xception_feature_extractor.keras", compile=False)
-models = [feature_model1, feature_model2, feature_model3]
+
+models = [m for m in (feature_model1, feature_model2, feature_model3) if m is not None]
+
+if not models:
+    raise RuntimeError("No feature extractors loaded. Ensure keras models exist in back-end/models/.")
 
 # 2) Utilities
 def _infer_target_size(model):
@@ -56,7 +60,7 @@ def _predict_vec(model, img_path):
 
 # 3) Public API —> returns one fused vector for the image
 def extract_concat_feature_for_image(img_path: str) -> np.ndarray:
-    vecs = [ _predict_vec(m, img_path) for m in models ]
+    vecs = [_predict_vec(m, img_path) for m in models]
     return np.concatenate(vecs, axis=0)
 
 # Example:

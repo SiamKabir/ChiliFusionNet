@@ -1,8 +1,8 @@
 from .main_model import load_joblib, load_json
-# from .preprocess import get_test_features
-from .single_preprocess import get_single_test_feature
-import pandas as pd
+from .single_pre import extract_concat_feature_for_image
 import warnings
+from typing import Dict
+
 warnings.filterwarnings("ignore", category=UserWarning, module="pickle")
 
 
@@ -62,22 +62,54 @@ warnings.filterwarnings("ignore", category=UserWarning, module="pickle")
 #     return results
 
 
+def _normalize_class_key(value) -> str:
+    """Ensure we look up labels consistently regardless of dtype."""
+    if isinstance(value, str) and value.isdigit():
+        return value
+    if isinstance(value, (int, float)):
+        return str(int(value))
+    return str(value)
+
+
 def run_single_predict(img_path):
-    
-    features = get_single_test_feature(img_path)
+    feature_vector = extract_concat_feature_for_image(img_path)
+    if feature_vector is None:
+        raise RuntimeError("Feature extraction failed")
+
+    # Ensure 2D array for scikit models
+    features = feature_vector.reshape(1, -1)
     print("Class:")
 
     chili_fusionnet = load_joblib("chili_fusionnet.joblib")
+    if chili_fusionnet is None:
+        raise RuntimeError("Model could not be loaded")
+
     print("loaded")
-    # 3) Predict
-    y_idx = chili_fusionnet.predict(features)                        # (N,)
-    y_proba = chili_fusionnet.predict_proba(features).max(axis=1)    # (N,)
+    y_idx = chili_fusionnet.predict(features)  # (N,)
+    proba_matrix = chili_fusionnet.predict_proba(features)
 
-    # 4) Decode labels
-    # class_map: index(str) -> label(str)
-    class_map       = load_json("class_map.json")
-    idx_to_label = lambda i: class_map.get(str(int(i)), str(int(i)))
+    class_map = load_json("class_map.json") or {}
 
+    # Build {label: probability} mapping sorted by probability desc
+    raw_classes = getattr(chili_fusionnet, "classes_", [])
+    row_probas = proba_matrix[0]
+    paired = list(zip(raw_classes, row_probas))
+    paired.sort(key=lambda item: item[1], reverse=True)
+
+    class_probabilities: Dict[str, float] = {}
+    for class_idx, prob in paired:
+        label_key = _normalize_class_key(class_idx)
+        label = class_map.get(label_key, str(class_idx))
+        class_probabilities[label] = float(prob)
+
+    # Decode predicted label
+    idx_to_label = lambda i: class_map.get(_normalize_class_key(i), str(i))
     pred_labels = [idx_to_label(i) for i in y_idx]
+    predicted_label = pred_labels[0]
+    confidence = class_probabilities.get(predicted_label, float(row_probas.max()))
 
-    return {"predicted_label": pred_labels[0], "confidence" : float(y_proba[0])}
+    return {
+        "predicted_label": predicted_label,
+        "confidence": confidence,
+        "probabilities": class_probabilities,
+    }
