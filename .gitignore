@@ -1,28 +1,56 @@
-chilifusionnet/
-back-end/chilifusionnet
-
-back-end/models
-artifacts/
-
-
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+*.py[cod]
+*.so
 *.egg-info/
-.installed.cfg
 *.egg
-front-end/package-lock.json
+*.log
+*.sqlite3
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+
+# FastAPI / TensorFlow artifacts
+back-end/uploads/
+back-end/models/*.keras
+back-end/models/*.h5
+back-end/models/*.hdf5
+back-end/models/*.ckpt
+back-end/models/*.tflite
+back-end/models/checkpoints/
+back-end/*.tgz
+back-end/*.tar.gz
+
+# Node / Vite
+ChiliFusionNet front-end/node_modules/
+ChiliFusionNet front-end/dist/
+ChiliFusionNet front-end/.vite/
+ChiliFusionNet front-end/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+*.env
+*.env.local
+ChiliFusionNet front-end/.env*
+back-end/.env*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp
+*.swp
