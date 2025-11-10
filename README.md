@@ -79,17 +79,17 @@ This scalable design ensures seamless integration between the deep learning mode
 
 **Feature Extractors:**
 - **InceptionResNetV2**: 
-  - Input: 299×299×3 images
+  - Input: 224×224×3 images
   - Pre-trained on ImageNet
   - Extraction from last pooling layer
   
 - **EfficientNetB3**: 
-  - Input: 300×300×3 images
+  - Input: 224×224×3 images
   - Compound scaling optimization
   - Efficient feature representation
   
 - **Xception**: 
-  - Input: 299×299×3 images
+  - Input: 224×224×3 images
   - Depthwise separable convolutions
   - Enhanced gradient flow
 
