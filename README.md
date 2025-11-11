@@ -6,7 +6,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-FF6F00.svg)](https://www.tensorflow.org/)
 
-> **An advanced deep learning platform for chili leaf disease detection using ensemble CNN feature extraction and classification**
+> **ChiliFusionNet: An Interpretable Stacking Ensemble Framework with Feature-Level Fusion for Automated Chili Leaf Disease Classification**
 
 ## 📋 Table of Contents
 
