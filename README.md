@@ -6,7 +6,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-FF6F00.svg)](https://www.tensorflow.org/)
 
-> **ChiliFusionNet: An Interpretable Stacking Ensemble Framework with Feature-Level Fusion for Automated Chili Leaf Disease Classification**
+> **Explainable chili leaf disease classification using an interpretable stacking ensemble framework with feature-level fusion**
 
 ## 📋 Table of Contents
 
