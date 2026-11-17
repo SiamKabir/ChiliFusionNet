@@ -59,7 +59,7 @@ The video covers:
 
 ## 🧬 Methodology
 
-![Methodology Diagram](Diagrams/Methodology%20Diagram.png)
+![Methodology Diagram](Diagrams/Methodology_updated.png)
 
 Our research methodology follows a systematic approach combining deep learning feature extraction with ensemble learning. The framework integrates three powerful CNN architectures to extract complementary features from chili leaf images, followed by a machine learning classifier for final disease classification. This comprehensive pipeline ensures robust model validation and agricultural relevance assessment.
 
@@ -79,17 +79,14 @@ This scalable design ensures seamless integration between the deep learning mode
 
 **Feature Extractors:**
 - **InceptionResNetV2**: 
-  - Input: 224×224×3 images
   - Pre-trained on ImageNet
   - Extraction from last pooling layer
   
 - **EfficientNetB3**: 
-  - Input: 224×224×3 images
   - Compound scaling optimization
   - Efficient feature representation
   
 - **Xception**: 
-  - Input: 224×224×3 images
   - Depthwise separable convolutions
   - Enhanced gradient flow
 
